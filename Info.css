@@ -1,0 +1,203 @@
+/*Nav bar styling */
+.nav{
+    position: fixed;
+    list-style:none;
+    padding:0;
+    text-align:center;
+    background-color: #f0efeb ;
+    border-radius: 3px;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+li a {
+  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+  /* color: #a5a58d; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+}
+
+li a:hover {
+  background-color: #eddcd2;
+}
+/* end of navbar styling */
+
+h1{
+  margin-top: 10%;
+  text-align: center;
+  border:rgb(231, 60, 160)solid;
+  border-radius: 30px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 50px;
+}
+
+/* h2{
+    font-family: 'Inconsolata', monospace;
+
+} */
+
+h3{
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+
+
+.tamponsbtn{
+  padding: 50px;
+  font-size: 45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 100px;
+}
+
+.padsbtn{
+  padding: 50px;
+  font-size:45px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 100px;
+}
+
+button:hover{
+background-color: rgb(231, 60, 160);
+box-shadow: 2px ;
+
+transform: 10px;
+
+}
+
+.mcupbtn{
+  padding: 50px;
+  font-size:45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 100px;
+}
+
+.Periodpantiesbtn{
+  padding: 50px;
+  font-size:45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 100px;
+}
+
+body{
+  background-color: #fff1e6;
+  
+}
+.btnrow{
+  align-items: center;
+  margin:15px;
+ display:flex;
+
+}
+
+button{
+background-color: #f7ddf0;
+margin: 22px;
+}
+
+.menstrualcupImg{
+  border-radius: 15px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+
+}
+
+.tamonsImg{
+   border-radius: 15px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.PeriodunderwearImg{
+   border-radius: 15px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.Padsimg{
+    border-radius: 15px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+
+}
+
+.p1div{
+  font-family: 'Inconsolata', monospace;
+}
+.p2div{
+  font-family: 'Inconsolata', monospace;
+}
+.p3div{
+  font-family: 'Inconsolata', monospace;
+}
+.p4div{
+  font-family: 'Inconsolata', monospace;
+}
+
+.fourbttns{
+  justify-content: space-around;
+  align-items: space-around;
+
+}
+
+/* Isolation page */
+
+/* .periodProductButtons {
+  border: 5px solid #fca8a2;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: block;
+  padding: 30px;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  background-color: #91bbfa;
+  color: white;
+}
+
+
+.periodProductButtons {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.first3active {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.ch1div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.isolationDescription {
+  margin-top: 30px;
+  margin-right: 200px;
+  margin-left: 200px;
+} */
+
+a {
+  text-decoration: none;
+}

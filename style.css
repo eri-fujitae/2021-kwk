@@ -1,0 +1,137 @@
+body{
+  background-color: #fff1e6;
+}
+footer{
+  background-color: #b7b7a4 ;
+}
+.nav{
+    position: fixed;
+    list-style:none;
+    padding:0;
+    text-align:center;
+    background-color: #f0efeb ;
+    border-radius: 3px;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+li a {
+  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+  /* color: #a5a58d; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+}
+
+li a:hover {
+  background-color: #eddcd2;
+}
+/* .logo{
+  display: block;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+
+.logomp4{
+   margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-family: 'Inconsolata', monospace;
+}
+
+p{
+  font-family: 'Inconsolata', monospace;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:2%;
+}
+.who{
+  display: flex;
+  justify-content: flex-start;
+  object-fit: cover;
+  margin: 2%;
+  border-radius: 10px;
+}
+.pic{
+  display: flex;
+  flex-wrap: no-wrap;
+  border: 3px solid #7c0b2b;
+  background-color: #ffcbdd;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.why1{
+  display: flex;
+  justify-content: flex-end;
+  width: 400px;
+  height: 280px;
+  margin: 2%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.why{
+  display: flex;
+  flex-wrap: no-wrap;
+  border: 3px solid #7c0b2b;
+  background-color: #ffcbdd;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.WhoareWesmall{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  margin: 15px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.we{
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-top: 5%;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.us{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid #7c0b2b;
+  background-color: #ffcbdd;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.intro{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 270px;
+  height: 150px;
+  padding-bottom: 6%;
+}
